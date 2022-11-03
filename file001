@@ -1,0 +1,23 @@
+a = 1
+while a<=5:
+    print(a)
+    a = a+1
+print("loop over")
+
+for x in("hello",1,12,23):
+    print(x)
+ 
+a = input("enter the value")
+if a>=100:
+    print("greater")
+    while a<=10:
+        a = a+1
+        print(a)
+elif a<=100:
+    print("lesser")
+    while a>=10:
+        a =a+1
+        print(a)
+
+        
+
